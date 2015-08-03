@@ -7,7 +7,7 @@ script:
   - npm run coverage
 after_script:
   - 'npm install codeclimate-test-reporter && cat coverage/lcov.info | codeclimate-test-reporter'
+sudo: false
 env:
   global:
-    - secure: wYDAytr3mI37FBAUA6XC0nwaUiz4HPWx2+XFgGoHgNjkpB/vTS5V7/f17B6pM1EAwBrgbeBuN0qma6Ha+bqb8K5TE/k1Ez98ekUYSII5yfK98ggFCXBNiU/XhWw0OWXRMGds3VZot1pL9U1LuOPz1MwfxV/v+faIhB/BSAJGx7U=
-sudo: false
+    - secure: JGyt28nIcIqZP7kgCo3ndHs9DaJTIV2rJF5gsbqtXPKszV3QOkXePRyXADKRUa6xCy69PfXPuJuR2Vw4sYRWzrimNxUcFDHbVgPzpjrsbJL/bYXuaxoKUPAyNrwskOEXNXiDx4voPwWlHL+Q1uAgRf2r0+IOHJJ2sLlfOqtjJ44lAfL2BPOBWieZQgD+W+OOlTiS/AyrYZddUOc1WZm3tERBNFhCiO2F9js3tLLbUt6bdvDx6Ol34VOKqzBw36i3BiNZF+pwu6AGWlt0uHkKYvcBGuksenU1LhSLJxUDvwVVApdter5Y+QQk0ops/cWHc6koPyTa2rb3KXkBBG7vUNorAMx/HlEQMuJwxz4viUoXAt1o5rGC+j1ebazhiBWZVp2/8AvFo1Q48r9D9F9J+UbfLCGzhNJQojNvxUSZy2v9cEeGxPC++rtckyMjlGsJpNyovaZj0qJYQsQppCLeziAillz74O5g6UWGe0JqEHKrKKTOk9NIyp7chHoYLgeGkY4aTEOL2P4CpAUV/ID3Mxro7e+XVuZTqMabVXBcSjMb9Sa+gctOqSGN7WZYR1wq928mCeKufsVBmlSvs2xX3WOX2Q7KLT3CJwjz6kJF0Dq/PDWhf+8TteDYnopEbtSLog7uJWIdUsbopuvCgs96hCleXBBrknILbg3zIHYud0o=
