@@ -10,3 +10,4 @@ after_script:
 env:
   global:
     - secure: wYDAytr3mI37FBAUA6XC0nwaUiz4HPWx2+XFgGoHgNjkpB/vTS5V7/f17B6pM1EAwBrgbeBuN0qma6Ha+bqb8K5TE/k1Ez98ekUYSII5yfK98ggFCXBNiU/XhWw0OWXRMGds3VZot1pL9U1LuOPz1MwfxV/v+faIhB/BSAJGx7U=
+sudo: false
