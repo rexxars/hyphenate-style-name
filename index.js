@@ -1,14 +1,13 @@
 'use strict';
 
-var uppercasePattern = /([A-Z])/g;
+var uppercasePattern = /[A-Z]/g;
 var msPattern = /^ms-/;
 
 function hyphenateStyleName(string) {
-    return hyphenate(string).replace(msPattern, '-ms-');
-}
-
-function hyphenate(string) {
-    return string.replace(uppercasePattern, '-$1').toLowerCase();
+    return string
+        .replace(uppercasePattern, '-$&')
+        .toLowerCase()
+        .replace(msPattern, '-ms-');
 }
 
 module.exports = hyphenateStyleName;
