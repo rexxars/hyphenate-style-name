@@ -6,7 +6,7 @@ Hyphenates a camelcased CSS property name. For example:
 
 - `backgroundColor` => `background-color`
 - `MozTransition` => `-moz-transition`
-- `msTransition` => `-ms-transition'`
+- `msTransition` => `-ms-transition`
 - `color` => `color`
 
 # Installation
