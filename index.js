@@ -5,7 +5,7 @@ var msPattern = /^ms-/;
 var cache = {};
 
 function hyphenateStyleName(string) {
-  return string in cache
+    return string in cache
     ? cache[string]
     : cache[string] = string
       .replace(uppercasePattern, '-$&')
