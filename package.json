@@ -4,7 +4,7 @@
   "description": "Hyphenates a camelcased CSS property name",
   "main": "index.js",
   "scripts": {
-    "coverage": "istanbul cover tape -- test/**/*.test.js",
+    "coverage": "nyc tape -- test/**/*.test.js",
     "lint": "eslint .",
     "test": "tape test/**/*.test.js",
     "pretest": "npm run lint"
@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/rexxars/hyphenate-style-name#readme",
   "devDependencies": {
-    "eslint": "^1.0.0",
-    "eslint-config-vaffel": "^1.0.2",
-    "istanbul": "^0.3.17",
-    "tape": "^4.0.1"
+    "eslint": "^3.8.1",
+    "eslint-config-vaffel": "^5.0.0",
+    "nyc": "^8.3.2",
+    "tape": "^4.6.2"
   }
 }

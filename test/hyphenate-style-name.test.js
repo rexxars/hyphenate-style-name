@@ -20,6 +20,19 @@ test('hyphenates vendor prefixes correctly', function(t) {
     ], t);
 });
 
+test('delivers consistent result on multiple runs (memoized)', function(t) {
+    testSet([
+        ['backgroundColor', 'background-color'],
+        ['backgroundColor', 'background-color'],
+        ['fontSize', 'font-size'],
+        ['fontSize', 'font-size'],
+        ['color', 'color'],
+        ['color', 'color'],
+        ['borderTopLeftRadius', 'border-top-left-radius'],
+        ['borderTopLeftRadius', 'border-top-left-radius']
+    ], t);
+});
+
 function testSet(dataSet, t) {
     dataSet.forEach(function(set) {
         t.equal(
