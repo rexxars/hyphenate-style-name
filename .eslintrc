@@ -1,3 +1,6 @@
 {
-    "extends": "vaffel"
+    "extends": "vaffel",
+    "rules": {
+        "no-return-assign": 0
+    }
 }
