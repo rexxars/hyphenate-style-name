@@ -2,12 +2,15 @@
   "name": "hyphenate-style-name",
   "version": "1.0.2",
   "description": "Hyphenates a camelcased CSS property name",
-  "main": "index.js",
+  "main": "index.cjs.js",
+  "module": "index.js",
   "scripts": {
+    "build": "rollup --input index.js --file index.cjs.js --format cjs",
     "coverage": "nyc tape -- test/**/*.test.js",
-    "lint": "eslint .",
+    "lint": "eslint . --ignore-path .gitignore",
     "test": "tape test/**/*.test.js",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint && npm run build",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -29,6 +32,7 @@
     "eslint": "^3.8.1",
     "eslint-config-vaffel": "^5.0.0",
     "nyc": "^8.3.2",
+    "rollup": "^1.1.2",
     "tape": "^4.6.2"
   }
 }
