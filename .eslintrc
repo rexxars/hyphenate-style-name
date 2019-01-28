@@ -1,6 +1,10 @@
 {
-    "parserOptions": {
-        "sourceType": "module"
-    },
-    "extends": "vaffel"
+  "extends": ["sanity", "prettier"],
+  "env": {"node": true, "browser": true},
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "strict": "off"
+  }
 }
