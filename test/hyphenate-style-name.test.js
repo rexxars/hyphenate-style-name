@@ -1,3 +1,5 @@
+/* eslint-disable strict */
+
 'use strict';
 
 var test = require('tape');
