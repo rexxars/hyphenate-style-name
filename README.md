@@ -1,6 +1,6 @@
 # hyphenate-style-name
 
-[![npm version](http://img.shields.io/npm/v/hyphenate-style-name.svg?style=flat-square)](http://browsenpm.org/package/hyphenate-style-name)[![Build Status](http://img.shields.io/travis/rexxars/hyphenate-style-name/master.svg?style=flat-square)](https://travis-ci.org/rexxars/hyphenate-style-name)
+[![npm version](http://img.shields.io/npm/v/hyphenate-style-name.svg?style=flat-square)](https://www.npmjs.com/package/hyphenate-style-name)[![Build Status](http://img.shields.io/travis/rexxars/hyphenate-style-name/master.svg?style=flat-square)](https://travis-ci.org/rexxars/hyphenate-style-name)
 
 Hyphenates a camelcased CSS property name. For example:
 
