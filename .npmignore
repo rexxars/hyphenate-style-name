@@ -4,3 +4,5 @@ coverage
 .eslintrc
 .gitignore
 .editorconfig
+.nyc_output
+.prettierrc
