@@ -18,7 +18,7 @@ $ npm install --save hyphenate-style-name
 # Usage
 
 ```js
-var hyphenateStyleName = require('hyphenate-style-name')
+import hyphenateStyleName from 'hyphenate-style-name'
 
 console.log(hyphenateStyleName('MozTransition')) // -moz-transition
 ```
