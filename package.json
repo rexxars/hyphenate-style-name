@@ -1,6 +1,6 @@
 {
   "name": "hyphenate-style-name",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Hyphenates a camelcased CSS property name",
   "main": "index.cjs.js",
   "module": "index.js",
