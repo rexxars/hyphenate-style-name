@@ -31,12 +31,11 @@
   },
   "homepage": "https://github.com/rexxars/hyphenate-style-name#readme",
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-sanity": "^1.149.16",
-    "nyc": "^15.1.0",
-    "prettier": "^2.0.5",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-config-sanity": "^7.1.2",
+    "prettier": "^3.2.5",
     "rollup": "^2.21.0",
-    "tape": "^5.0.1"
+    "tape": "^5.7.5"
   }
 }
