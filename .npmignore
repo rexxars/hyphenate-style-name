@@ -1,6 +1,6 @@
 test
 coverage
-.travis.yml
+.github
 .eslintrc
 .gitignore
 .editorconfig
