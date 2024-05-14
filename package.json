@@ -35,7 +35,7 @@
     "eslint-config-prettier": "^8.0.0",
     "eslint-config-sanity": "^7.1.2",
     "prettier": "^3.2.5",
-    "rollup": "^2.21.0",
+    "rollup": "^4.17.2",
     "tape": "^5.7.5"
   }
 }
