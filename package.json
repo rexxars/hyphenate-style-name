@@ -4,6 +4,7 @@
   "description": "Hyphenates a camelcased CSS property name",
   "main": "index.cjs.js",
   "module": "index.js",
+  "types": "index.d.ts",
   "sideEffects": false,
   "scripts": {
     "build": "rollup --input index.js --file index.cjs.js --format cjs",
@@ -16,7 +17,8 @@
   },
   "files": [
     "index.js",
-    "index.cjs.js"
+    "index.cjs.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
